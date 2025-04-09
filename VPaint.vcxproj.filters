@@ -13,6 +13,9 @@
       <UniqueIdentifier>{67DA6AB6-F800-4c08-8B7A-83BB121AAD01}</UniqueIdentifier>
       <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tiff;tif;png;wav;mfcribbon-ms</Extensions>
     </Filter>
+    <Filter Include="Текстовые файлы">
+      <UniqueIdentifier>{9f0fbc79-603d-41c1-81f8-58079f23df0e}</UniqueIdentifier>
+    </Filter>
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="FormPaint.h">
@@ -39,5 +42,21 @@
     <Image Include="Resourses\VPaint\VPaint.ico">
       <Filter>Файлы ресурсов</Filter>
     </Image>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include=".gitattributes">
+      <Filter>Текстовые файлы</Filter>
+    </None>
+    <None Include=".gitignore">
+      <Filter>Текстовые файлы</Filter>
+    </None>
+    <None Include="README.md">
+      <Filter>Текстовые файлы</Filter>
+    </None>
+  </ItemGroup>
+  <ItemGroup>
+    <Text Include="LICENSE.txt">
+      <Filter>Текстовые файлы</Filter>
+    </Text>
   </ItemGroup>
 </Project>
