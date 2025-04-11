@@ -318,7 +318,7 @@ namespace VPaint
 			   this->imageToolStripMenuItem->Text = L"Изображение";
 			   // 
 			   // backgroundToolStripMenuItem
-			   // 
+			   //
 			   this->backgroundToolStripMenuItem->DropDownItems->AddRange(gcnew cli::array< System::Windows::Forms::ToolStripItem^  >(2)
 			   {
 				   this->loadBackgroundToolStripMenuItem,
